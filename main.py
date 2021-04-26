@@ -80,6 +80,19 @@ sinchan.circle(45,80)
 sinchan.circle(20,80)
 sinchan.circle(41,116)
 sinchan.end_fill()
+sinchan.penup()
+sinchan.pencolor('red')
+sinchan.goto(8.542846848484112-10,103.47427858190275-30)
+sinchan.pendown()
+sinchan.fillcolor('white')
+sinchan.begin_fill()
+sinchan.right(-50)     # left eye
+sinchan.circle(-15,360)
+#sinchan.circle(-25,80)
+#sinchan.circle(-1,80)
+#sinchan.circle(-21,116)
+sinchan.end_fill()
+
 
 
 
