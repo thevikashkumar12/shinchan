@@ -1,0 +1,88 @@
+import turtle
+
+sinchan = turtle.Turtle()
+wn = turtle.Screen()
+
+# sketch area
+
+wn.bgcolor("white")
+wn.setup(600, 500)
+wn.tracer(1)
+wn.title("sinchan sketch")
+
+# sketch_setting
+
+sinchan.penup()
+sinchan.goto(-100, 40)
+#sinchan.pencolor('#ff00ff' )
+#sinchan.begin_fill("")
+sinchan.pendown()
+sinchan.left(135)
+sinchan.circle(45,150)
+sinchan.circle(55,50)
+sinchan.circle(70,50)
+sinchan.right(38)
+sinchan.circle(600,15)
+sinchan.circle(800,5)
+sinchan.circle(150,30)
+sinchan.circle(70,80)
+sinchan.circle(60,18)
+sinchan.circle(70,15)
+sinchan.circle(300,15)
+print(sinchan.xcor(),sinchan.ycor())
+sinchan.right(45)
+sinchan.circle(150,50)
+sinchan.circle(170,40)
+sinchan.circle(130,67)
+sinchan.penup()
+sinchan.goto(133.5977246495586-70,124.43656411676199+62)
+sinchan.right(90)
+sinchan.pendown()
+sinchan.circle(600,10)
+sinchan.circle(85,50)
+sinchan.circle(600,6.8)
+print(sinchan.xcor(),sinchan.ycor())
+# hair ends here
+sinchan.penup()
+sinchan.goto(-115.96830911772152+25,49.5739549044936+15)
+sinchan.pendown()
+sinchan.right(18)
+sinchan.circle(150,-18)
+sinchan.circle(85,-8)
+sinchan.circle(55,-55)
+sinchan.circle(45,-10)
+print(sinchan.xcor(),sinchan.ycor())
+sinchan.penup()
+sinchan.goto(8.542846848484112+45,103.47427858190275)
+sinchan.right(90)
+sinchan.pendown()
+sinchan.circle(-60,50)
+sinchan.circle(-35,40)
+sinchan.circle(-60,20)
+sinchan.penup()
+sinchan.goto(8.542846848484112+8,103.47427858190275-20)
+sinchan.pendown()
+sinchan.fillcolor('black')
+sinchan.begin_fill()      # left eye
+sinchan.circle(-25,70)
+sinchan.circle(-45,80)
+sinchan.circle(-20,80)
+sinchan.circle(-41,116)
+sinchan.end_fill()
+sinchan.penup()
+sinchan.goto(8.542846848484112+45,103.47427858190275-23)
+sinchan.pendown()
+sinchan.right(50)
+sinchan.fillcolor('black')
+sinchan.begin_fill()      # right eye
+sinchan.circle(25,70)
+sinchan.circle(45,80)
+sinchan.circle(20,80)
+sinchan.circle(41,116)
+sinchan.end_fill()
+
+
+
+
+
+wn.mainloop()
